@@ -309,35 +309,4 @@ img{
     margin-right: 20px;
 }
 
-/* For devices with a maximum width of 768px (tablets) */
-@media only screen and (max-width: 768px) {
-    
-    .footer-2 {
-        flex-direction: column; 
-        align-items: center; 
-    }
-    .footer-2 div {
-        margin-bottom: 10px;
-    }
-}
-
-/* For devices with a maximum width of 480px (mobile phones) */
-@media only screen and (max-width: 480px) {
-   
-    .footer-2 {
-        padding: 10px;
-    }
-    .footer-2 div {
-        font-size: 14px; 
-        line-height: 1.4;
-    }
-}
-
-/* For very small screens */
-@media only screen and (max-width: 320px) {
-    .amazon-logo {
-        width: 70px;
-    }
-}
-
 
